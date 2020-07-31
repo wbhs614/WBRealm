@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/wbhs614/WBRealm.git", :tag => spec.version }
   spec.source_files  = "dynamic", "dynamic/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
+  spec.ios.deployment_target = '8.0'
 end
