@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "WBRealm"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of WBRealm."
+  spec.summary      = "zhao"
   spec.description  = "wangbiao first"
   spec.homepage     = "www.zhaoliangji.com"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
