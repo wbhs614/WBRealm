@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "wangbiao" => "1341659877@qq.com" }
   spec.source       = { :git => "https://github.com/wbhs614/WBRealm.git", :tag => spec.version }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "dynamic", "dynamic/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 end
