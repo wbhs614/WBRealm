@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "WBRealm"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "zhao"
   spec.description  = "wangbiao first"
   spec.homepage     = "www.zhaoliangji.com"
