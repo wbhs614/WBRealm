@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "wangbiao" => "1341659877@qq.com" }
   spec.source       = { :git => "https://github.com/wbhs614/WBRealm.git", :tag => spec.version }
-  spec.source_files  = "PodFiles/*"
+  spec.source_files  = "PodFiles","PodFiles/*"
   spec.exclude_files = "Classes/Exclude"
   spec.ios.deployment_target = '8.0'
 end
