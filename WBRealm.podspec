@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "WBRealm"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "zhao"
   spec.description  = "wangbiao first"
   spec.homepage     = "www.zhaoliangji.com"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "wangbiao" => "1341659877@qq.com" }
   spec.source       = { :git => "https://github.com/wbhs614/WBRealm.git", :tag => spec.version }
-  spec.source_files  = "PodFiles","PodFiles/*"
+  spec.source_files  = "PodFiles/*"
   spec.exclude_files = "Classes/Exclude"
   spec.ios.deployment_target = '8.0'
 end
